@@ -1,0 +1,23 @@
+body{
+  background-color: lavender;
+}
+span{
+ color: azure;
+}
+.parent-box{
+ display: grid;
+ justify-content: center;
+ padding-top: 20%;
+}
+.child-box{
+ display: grid;
+ justify-content: center;
+ background-color: cadetblue;
+ padding: 20px 16px;
+ width: 100%;
+ border-radius: 5px 5px 5px 5px;
+
+}
+.output{
+ padding-top: 20%;
+}

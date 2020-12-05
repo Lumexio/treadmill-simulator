@@ -1,9 +1,9 @@
 
-var input;
-var output;
-function suma(input) {
+let input;
+let output;
+function suma() {
      input = document.getElementById('input').value;
      output = input;
      document.getElementById('output').innerHTML = output;
 }
-suma(input);
+suma();

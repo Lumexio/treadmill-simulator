@@ -1,19 +1,10 @@
 
-var grades = [];
-var bandera=true;
- function suma(){
-   while (bandera === true) {
-     //let input = prompt("Insertar calificación");
+var input;
+var output;
+function suma(input) {
      input = document.getElementById('input').value;
-     if (input === "q" || input === null) {
-       alert("Gracias por usar sistema.");
-       bandera = false;
-     }
-     grades.push(Number(input));
-     console.log(grades);
-   }
-   alert(grades);
-     //document.getElementById('output').innerHTML = grades;
-    //input = document.getElementById('input').value;
-  }
-  suma();
+     output = input;
+     document.getElementById('output').innerHTML = output;
+
+}
+suma(input);

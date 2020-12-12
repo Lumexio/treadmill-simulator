@@ -13,7 +13,7 @@ var output;
 let doublee = (nums) => {
      input = document.getElementById('input').value;
      var nums = [input];
-     let double = nums.map(function (n) {
+     var double = nums.map(function (n) {
           if (n % 2 == 0)
                return n * 2;
           else {

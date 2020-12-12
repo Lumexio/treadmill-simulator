@@ -1,7 +1,7 @@
 
 let input;
 let output;
-function suma() {
+var suma = () => {
      input = document.getElementById('input').value;
      output = input;
      document.getElementById('output').innerHTML = output;

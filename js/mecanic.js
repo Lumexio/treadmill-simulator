@@ -1,6 +1,7 @@
 
 let input;
-var output;
+
+let output = [];
 /*let suma = (input) => {
     input = document.getElementById('input').value;
     output = input;
@@ -8,21 +9,15 @@ var output;
     return output;
 }*/
 
-
-
-let doublee = (nums) => {
+function splitToDigit(n) {
+     return [...n + ''].map(Number)
+}
+let atall = (input) => {
      input = document.getElementById('input').value;
-     var nums = [input];
-     var double = nums.map(function (n) {
-          if (n % 2 == 0)
-               return n * 2;
-          else {
-               return n * 3;
-          }
-     });
-     output = double;
+     input = splitToDigit(input);
+     input = input.sort((a, b) => b - a);
+     console.log(input);
+     output = input;
      document.getElementById('output').innerHTML = output;
      return output;
 }
-console.log("pre result:", output);
-

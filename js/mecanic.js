@@ -12,6 +12,9 @@ let output = [];
 function splitToDigit(n) {
      return [...n + ''].map(Number)
 }
+/*function splitToDigit(n){
+  return (n + '').split('').map((i) => { return Number(i); })
+} */
 let atall = (input) => {
      input = document.getElementById('input').value;
      input = splitToDigit(input);

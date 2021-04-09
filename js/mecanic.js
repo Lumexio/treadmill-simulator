@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 let input;
 
 let output = [];
@@ -16,6 +17,11 @@ function splitToDigit(n) {
   return (n + '').split('').map((i) => { return Number(i); })
 } */
 let atall = (input) => {
+=======
+/*let input;
+let output;
+var suma = () => {
+>>>>>>> master
      input = document.getElementById('input').value;
      input = splitToDigit(input);
      input = input.sort((a, b) => b - a);
@@ -24,3 +30,7 @@ let atall = (input) => {
      document.getElementById('output').innerHTML = output;
      return output;
 }
+<<<<<<< HEAD
+=======
+suma();*/
+>>>>>>> master

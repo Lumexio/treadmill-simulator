@@ -1,13 +1,11 @@
+function insertSpeed() {
+     const dataSpeed = document.querySelector(".path-run");
 
-/*let input;
-let output;
-var suma = () => {
+     let input;
      input = document.getElementById('input').value;
-     input = splitToDigit(input);
-     input = input.sort((a, b) => b - a);
-     console.log(input);
-     output = input;
+     input = input + "s";//unir un string con numero contenido en una variable.
+     output = input;//guarda la entrada de datos para mostrarla en una una etiqueta posteriormente
      document.getElementById('output').innerHTML = output;
-     return output;
+     dataSpeed.style.animation = "rotate " + input + " linear reverse infinite"
+
 }
-suma();*/

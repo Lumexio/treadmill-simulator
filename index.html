@@ -4,64 +4,21 @@
 <head>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <!--<link rel="stylesheet" href="CSS/style.css">-->
+ <link rel="stylesheet" href="CSS/style.css">
  <title>Land page on </title>
  <style>
-  .path-run {
-   width: 100px;
-   height: 100px;
 
-
-   margin-top: 200px;
-   margin-left: 300px;
-   transform-origin: 200% center;
-   position: relative;
-   animation: rotate 3s linear infinite;
-  }
-
-  .path-run:before {
-   content: '';
-   position: absolute;
-   height: 100%;
-   width: 100%;
-   border-radius: 50px;
-   background: white;
-   animation: rotate 3s linear reverse infinite;
-  }
-
-  @keyframes rotate {
-   100% {
-    transform: rotate(-360deg);
-   }
-  }
-
-  body {
-   background: rgb(51, 51, 51);
-  }
-
-  /* The best color ever */
  </style>
 </head>
 
 <body>
-<<<<<<< HEAD
  <div class="parent-box">
   <div class="child-box">
-   <input id="input" onchange="atall();" placeholder="Numeros a ordenar" />
-   <button onclick="atall();" id="btn1">resultado</button>
-   <div class="output">
-    <span>Resultado</span>
-    <span style="color: whitesmoke;" id="output"> </span>
-   </div>
+   <input id="input" type="text" onchange="insertSpeed()"><span style="color: whitesmoke;" id="output"> </span>
   </div>
  </div>
-
- <script src="js/mecanic.js"></script>
-=======
  <div class="path-run"></div>
-
- <!--<script src="js/mecanic.js"></script>-->
->>>>>>> master
+ <script src="js/mecanic.js"></script>
 </body>
 
 </html>

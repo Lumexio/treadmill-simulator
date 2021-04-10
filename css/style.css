@@ -1,23 +1,60 @@
-body{
-  background-color: lavender;
+body {
+  background: rgb(51, 51, 51);
 }
-span{
- color: azure;
+
+span {
+  color: azure;
 }
-.parent-box{
- display: grid;
- justify-content: center;
- padding-top: 20%;
+
+.parent-box {
+  display: grid;
+  justify-content: center;
+  padding-top: 20%;
 }
-.child-box{
- display: grid;
- justify-content: center;
- background-color: cadetblue;
- padding: 20px 16px;
- width: 100%;
- border-radius: 5px 5px 5px 5px;
+
+.child-box {
+  display: grid;
+  justify-content: center;
+  background-color: cadetblue;
+  padding: 20px 16px;
+  width: 100%;
+  border-radius: 5px 5px 5px 5px;
 
 }
-.output{
- padding-top: 20%;
+
+.output {
+  padding-top: 20%;
 }
+
+
+
+.path-run {
+  width: 100px;
+  height: 100px;
+
+
+  margin-top: 200px;
+  margin-left: 100px;
+  transform-origin: 200% center;
+  position: relative;
+  animation: rotate 3s linear infinite;
+}
+
+.path-run:before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+  background: white;
+  animation: rotate 3s linear reverse infinite;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+
+/* The best color ever */

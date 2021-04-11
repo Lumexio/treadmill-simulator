@@ -6,16 +6,21 @@ span {
   color: azure;
 }
 
+/*Contenedor del recuadro de entrada de datos*/
 .parent-box {
+
   display: grid;
   justify-content: center;
+  align-content: center;
   padding-top: 5%;
   padding-bottom: 10%;
 }
 
+/*Aqui se dibuja la caja con el input para dato*/
 .child-box {
   display: grid;
   justify-content: center;
+  align-content: center;
   background-color: cadetblue;
   padding: 20px 16px;
   width: 100%;
@@ -23,12 +28,16 @@ span {
 
 }
 
-
+/*Contenedor principal en donde se encuentra el recorrido y la animación de camino*/
 .content-main {
-  padding-left: 41%;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
 
 }
 
+/**/
 .track-content {
   display: grid;
   justify-content: start;

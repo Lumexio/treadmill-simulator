@@ -9,7 +9,8 @@ span {
 .parent-box {
   display: grid;
   justify-content: center;
-  padding-top: 20%;
+  padding-top: 5%;
+  padding-bottom: 10%;
 }
 
 .child-box {
@@ -22,22 +23,38 @@ span {
 
 }
 
-.output {
-  padding-top: 20%;
+
+.content-main {
+  padding-left: 41%;
+
+}
+
+.track-content {
+  display: grid;
+  justify-content: start;
+  align-content: center;
+
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  background: radial-gradient(circle, transparent 30%, rgb(255, 255, 255));
+
+}
+
+.child-track {
+  background-color: rgb(94, 95, 95);
+  border-radius: 50px;
+  height: 50px;
 }
 
 
-
 .path-run {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
 
-
-  margin-top: 200px;
-  margin-left: 100px;
-  transform-origin: 200% center;
+  transform-origin: 300% center;
   position: relative;
-  animation: rotate 3s linear infinite;
+  animation: rotate 0s linear infinite;
 }
 
 .path-run:before {
@@ -47,7 +64,7 @@ span {
   width: 100%;
   border-radius: 50px;
   background: white;
-  animation: rotate 3s linear reverse infinite;
+  animation: rotate 0s linear reverse infinite;
 }
 
 @keyframes rotate {

@@ -8,7 +8,6 @@ span {
 
 /*Contenedor del recuadro de entrada de datos*/
 .parent-box {
-
   display: grid;
   justify-content: center;
   align-content: center;
@@ -33,8 +32,6 @@ span {
   display: grid;
   justify-content: center;
   align-content: center;
-
-
 }
 
 /**/
@@ -63,7 +60,7 @@ span {
 
   transform-origin: 300% center;
   position: relative;
-  animation: rotate 0s linear infinite;
+  animation: rotate 0s linear reverse infinite;
 }
 
 .path-run:before {

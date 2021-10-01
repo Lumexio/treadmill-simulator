@@ -7,7 +7,6 @@ function insertSpeed() {
           output = input;//guarda la entrada de datos para mostrarla en una una etiqueta posteriormente
           input = (500 / input);//
           input = input + "s";//unir un string con numero contenido en una variable.
-          console.log(output);
           document.getElementById('output').innerHTML = output;
           dataSpeed.style.animation = "rotate " + input + " linear reverse infinite"
      } else {
